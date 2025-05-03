@@ -5,7 +5,7 @@
   minPlayers: 0
   maxPlayers: 25
   stations:
-    Mira:
+    Spire:
       stationProto: StandardNanotrasenStation
       components:
         - type: StationNameSetup
