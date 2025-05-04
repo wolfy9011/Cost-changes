@@ -157412,8 +157412,6 @@ entities:
     - type: BatteryWeaponFireModes
       currentFireMode: 1
     - type: DeviceNetwork
-      configurators:
-      - invalid
 - proto: WeaponFlareGunSecurity
   entities:
   - uid: 17776
