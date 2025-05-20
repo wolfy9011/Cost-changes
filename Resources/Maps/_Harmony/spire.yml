@@ -15899,7 +15899,7 @@ entities:
     - type: Transform
       pos: -26.5,-37.5
       parent: 2
-- proto: BannerShoal
+- proto: BannerRevolution
   entities:
   - uid: 6824
     components:

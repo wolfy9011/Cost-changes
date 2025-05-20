@@ -1,9 +1,0 @@
-- type: entity
-  id: BannerShoal
-  parent: BannerBase
-  name: shoal banner
-  description: A banner displaying a symbol of the Shoal, standing proud and beautiful
-  components:
-  - type: Sprite
-    sprite: _Harmony/Structures/Decoration/banner.rsi
-    state: banner_shoal

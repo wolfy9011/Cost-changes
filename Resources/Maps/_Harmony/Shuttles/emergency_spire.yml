@@ -1099,7 +1099,7 @@ entities:
     - type: Transform
       pos: 4.4840894,11.573894
       parent: 1
-- proto: BannerBlue
+- proto: BannerRevolution
   entities:
   - uid: 78
     components:
