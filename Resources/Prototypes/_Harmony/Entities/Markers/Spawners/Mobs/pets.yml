@@ -1,20 +1,3 @@
-# Xeno playtest
-- type: entity
-  parent: MarkerBase
-  id: SpawnMobXenoPraetorianHarmony
-  name: Xeno Spawner
-  suffix: Praetorian, No Ghost
-  components:
-  - type: Sprite
-    layers:
-    - state: green
-    - state: running
-      sprite: Mobs/Aliens/Xenos/praetorian.rsi
-  - type: ConditionalSpawner
-    prototypes:
-    - MobXenoLonePraetorianNoGhost
-
-#Harmony spawner
 - type: entity
   parent: MarkerBase
   id: SpawnMobPoquito
