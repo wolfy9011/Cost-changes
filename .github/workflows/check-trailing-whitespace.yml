@@ -15,12 +15,14 @@ jobs:
       id: changed-files
       uses: tj-actions/changed-files@v46.0.5
       with:
+      # Harmony change - Only check files in _Harmony directories
         files: |
-          **.cs
-          **.yml
-          **.swsl
-          **.json
-          **.py
+          **/_Harmony/**.cs
+          **/_Harmony/**.yml
+          **/_Harmony/**.swsl
+          **/_Harmony/**.json
+          **/_Harmony/**.py
+      # End harmony
     - name: Check for trailing whitespace and EOF newline
       env:
         ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
