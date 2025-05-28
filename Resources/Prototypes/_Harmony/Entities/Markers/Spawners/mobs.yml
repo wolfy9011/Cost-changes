@@ -1,8 +1,9 @@
 # Xeno playtest
 - type: entity
-  name: xeno queen entity spawner
-  id: SpawnMobXenoQueen
   parent: MarkerBase
+  id: SpawnMobXenoPraetorianHarmony
+  name: Xeno Spawner
+  suffix: Praetorian, No Ghost
   components:
   - type: Sprite
     layers:
@@ -15,9 +16,9 @@
 
 #Harmony spawner
 - type: entity
-  name: Poqutio Spawner
-  id: SpawnMobPoquito
   parent: MarkerBase
+  id: SpawnMobPoquito
+  name: Poqutio Spawner
   components:
   - type: Sprite
     layers:
