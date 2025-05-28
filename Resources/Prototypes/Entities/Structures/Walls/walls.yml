@@ -536,10 +536,10 @@
               acts: [ "Destruction" ]
 
 - type: entity
-  parent: WallShuttleDiagonal
-  id: WallPlastitaniumDiagonal
+  parent: WallDiagonalBase
+  id: WallPlastitaniumDiagonalIndestructible
   name: plastitanium wall
-  suffix: diagonal
+  suffix: diagonal, indestructible
   components:
   - type: Sprite
     drawdepth: Walls
