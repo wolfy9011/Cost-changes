@@ -1847,7 +1847,9 @@
   description: uplink-cat-ears-desc
   productEntity: ClothingHeadHatCatEars
   cost:
-    Telecrystal: 26
+   # Start of harmony change
+    Telecrystal: 25 # Changed from 26 TC
+   # End of harmony change
   categories:
   - UplinkPointless
 
